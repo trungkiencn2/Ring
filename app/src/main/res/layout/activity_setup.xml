@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical"
+    tools:context="com.skyfree.ring.activity.SetupActivity">
+
+    <TextView
+        android:id="@+id/tv_name_song_setup_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hai_muoi_dp"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/hai_muoi_sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/hai_muoi_dp">
+
+        <Button
+            android:id="@+id/btn_set_ringtone_setup_activity"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_btn_set_ringtone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/set_ring_tone"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/muoi_sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="@dimen/hai_muoi_dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_set_sms_setup_activity"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_btn_set_sms" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/set_up_notify"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/muoi_sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_set_all_setup_activity"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_btn_set_contact" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="@dimen/muoi_sp"
+                android:text="@string/set_up_for_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="@dimen/hai_muoi_dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_set_alarm_setup_activity"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_btn_set_alarm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/set_alarm"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/muoi_sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_download_setup_activity"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_btn_download_ringtone" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="@dimen/muoi_sp"
+                android:text="@string/download_ringtone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_back_setup_activity"
+            android:background="@drawable/bg_btn_back"
+            android:layout_width="@dimen/mot_tram_dp"
+            android:layout_height="@dimen/bon_muoi_dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

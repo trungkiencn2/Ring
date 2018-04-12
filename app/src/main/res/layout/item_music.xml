@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/muoi_dp">
+
+    <ImageView
+        android:src="@drawable/ic_music"
+        android:layout_width="@dimen/ba_muoi_dp"
+        android:layout_height="@dimen/bon_muoi_dp" />
+
+    <TextView
+        android:id="@+id/tv_name_song_item_music"
+        android:textSize="@dimen/muoi_lam_sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_white"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingLeft="@dimen/muoi_lam_dp"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/bon_muoi_dp" />
+
+    <Button
+        android:background="@drawable/bg_btn_three_dot"
+        android:id="@+id/img_option_item_music"
+        android:padding="@dimen/nam_dp"
+        android:layout_marginRight="@dimen/muoi_dp"
+        android:layout_width="@dimen/muoi_dp"
+        android:layout_height="@dimen/bon_muoi_dp" />
+
+</LinearLayout>
